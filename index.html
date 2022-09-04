@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/app.css">
+    <link rel=" shortcut icon" type="image/png" href="assets/favicon.png" />
     <title>Jawara Entertaiment</title>
 </head>
 
 <body>
     <!-- sidebar -->
-    <div id="sidebar" class="fixed top-0 bottom-0 left-0 right-0 flex flex-col w-0 h-full overflow-x-hidden transition-all duration-300 ease-in-out bg-gradient-to-br from-violet-600 to-blue-500">
-        <div class="flex flex-row items-center justify-between gap-4 text-white border-b container-x border-b-white/30 ">
+    <div id="sidebar"
+        class="fixed top-0 bottom-0 left-0 right-0 flex flex-col w-0 h-full overflow-x-hidden transition-all duration-300 ease-in-out bg-gradient-to-br from-violet-600 to-blue-500">
+        <div
+            class="flex flex-row items-center justify-between gap-4 text-white border-b container-x border-b-white/30 ">
             <span class="text-lg font-semibold">Menu</span>
             <button id="sidebar-close" class="p-2 transition duration-200 rounded-full hover:bg-white/20">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -21,12 +24,21 @@
             </button>
         </div>
         <div class="flex flex-col items-center justify-center flex-grow gap-4 font-semibold text-white">
-            <a href="#home" class="px-6 py-3 transition duration-200 rounded-md hover:bg-white/20 min-w-[200px] flex flex-row items-center justify-center" onclick="closeSidebar()">Home</a>
-            <a href="#layanan" class="px-6 py-3 transition duration-200 rounded-md hover:bg-white/20 min-w-[200px] flex flex-row items-center justify-center" onclick="closeSidebar()">Layanan</a>
-            <a href="#gallery" class="px-6 py-3 transition duration-200 rounded-md hover:bg-white/20 min-w-[200px] flex flex-row items-center justify-center" onclick="closeSidebar()">Gallery</a>
-            <a href="#kontak" class="px-6 py-3 transition duration-200 rounded-md hover:bg-white/20 min-w-[200px] flex flex-row items-center justify-center" onclick="closeSidebar()">Kontak</a>
+            <a href="#home"
+                class="px-6 py-3 transition duration-200 rounded-md hover:bg-white/20 min-w-[200px] flex flex-row items-center justify-center"
+                onclick="closeSidebar()">Home</a>
+            <a href="#layanan"
+                class="px-6 py-3 transition duration-200 rounded-md hover:bg-white/20 min-w-[200px] flex flex-row items-center justify-center"
+                onclick="closeSidebar()">Layanan</a>
+            <a href="#gallery"
+                class="px-6 py-3 transition duration-200 rounded-md hover:bg-white/20 min-w-[200px] flex flex-row items-center justify-center"
+                onclick="closeSidebar()">Gallery</a>
+            <a href="#kontak"
+                class="px-6 py-3 transition duration-200 rounded-md hover:bg-white/20 min-w-[200px] flex flex-row items-center justify-center"
+                onclick="closeSidebar()">Kontak</a>
         </div>
-        <div class="flex container-x flex-col !px-3 text-sm border-t border-t-white/20 text-white/50 items-center justify-center">
+        <div
+            class="flex container-x flex-col !px-3 text-sm border-t border-t-white/20 text-white/50 items-center justify-center">
             <span class="text-center">&copy; 2022 - Jawara Entertaiment</span>
         </div>
     </div>
@@ -45,7 +57,8 @@
                         <a href="#gallery" class="menu-link">Gallery</a>
                         <a href="#kontak" class="menu-link">Kontak</a>
                     </div>
-                    <button id="sidebar-show" class="flex p-2 transition duration-200 rounded-full md:hidden hover:bg-white/30">
+                    <button id="sidebar-show"
+                        class="flex p-2 transition duration-200 rounded-full md:hidden hover:bg-white/30">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
@@ -265,7 +278,7 @@
         let closeSidebar = () => {
             sidebar.style.width = "0"
         }
-        
+
         let btnTop = document.getElementById('btn-top')
         let scrollAction = () => {
             if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
