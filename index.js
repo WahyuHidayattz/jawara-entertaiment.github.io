@@ -50,3 +50,12 @@ for (let review of CONFIG.review){
     </div>`
     containerReview.innerHTML += items
 }
+
+let contacts = CONFIG.contacts
+let whatsapp = contacts[contacts.map(i => i.judul).indexOf("Whatsapp")];
+let telegram = contacts[contacts.map(i => i.judul).indexOf("Telegram")];
+let instagram = contacts[contacts.map(i => i.judul).indexOf("Instagram")];
+
+document.getElementById('contact-whatsapp').href = whatsapp.link;
+document.getElementById('contact-telegram').href = telegram.link;
+document.getElementById('contact-instagram').href = instagram.link;

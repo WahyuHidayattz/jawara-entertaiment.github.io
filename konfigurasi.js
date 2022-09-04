@@ -42,7 +42,7 @@ const CONFIG = {
 
             'fitur': ['Diskon 18%', '6 Jam standby', '50+ Jepretan Foto','Edit Foto', 'Post di IG'],
 
-            'gallery': ['assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg','assets/images/gambar-sound.jpg','assets/images/gambar-tenda.jpg','assets/images/gambar-undangan.jpg','assets/images/gambar-lainnya.jpg']
+            'gallery': ['assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg','assets/images/gambar-sound.jpg','assets/images/gambar-tenda.jpg','assets/images/gambar-undangan.jpg','assets/images/gambar-lainnya.jpg','assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg']
         },
         {
             'id': 'jasa-sound',
@@ -55,7 +55,7 @@ const CONFIG = {
 
             'fitur': ['Diskon 10%', 'Operator disediakan', '4 Sound besar', 'Bisa req lagu','Karouke'],
 
-            'gallery': ['assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg','assets/images/gambar-sound.jpg','assets/images/gambar-tenda.jpg','assets/images/gambar-undangan.jpg','assets/images/gambar-lainnya.jpg']
+            'gallery': ['assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg','assets/images/gambar-sound.jpg','assets/images/gambar-tenda.jpg','assets/images/gambar-undangan.jpg','assets/images/gambar-lainnya.jpg','assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg']
         },
         {
             'id': 'jasa-undangan',
@@ -68,7 +68,7 @@ const CONFIG = {
 
             'fitur': ['Diskon 15%', 'Design moderen', 'Kualitas Kertas No.1', 'Peta / Alamat Pernikahan', 'Free ongkir'],
 
-            'gallery': ['assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg','assets/images/gambar-sound.jpg','assets/images/gambar-tenda.jpg','assets/images/gambar-undangan.jpg','assets/images/gambar-lainnya.jpg']
+            'gallery': ['assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg','assets/images/gambar-sound.jpg','assets/images/gambar-tenda.jpg','assets/images/gambar-undangan.jpg','assets/images/gambar-lainnya.jpg','assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg']
         },
         {
             'id': 'jasa-mc',
@@ -81,7 +81,7 @@ const CONFIG = {
 
             'fitur': ['Diskon 25%', 'Tema bebas', 'Speaker Profesional', 'Bisa duet dan nyanyi'],
 
-            'gallery': ['assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg','assets/images/gambar-sound.jpg','assets/images/gambar-tenda.jpg','assets/images/gambar-undangan.jpg','assets/images/gambar-lainnya.jpg']
+            'gallery': ['assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg','assets/images/gambar-sound.jpg','assets/images/gambar-tenda.jpg','assets/images/gambar-undangan.jpg','assets/images/gambar-lainnya.jpg','assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg']
         },
         {
             'id': 'jasa-tenda',
@@ -94,7 +94,7 @@ const CONFIG = {
 
             'fitur': ['DIskon 8%', 'Tenda kokoh', 'Desian minimalist', 'Free bangku', 'Free meja'],
 
-            'gallery': ['assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg','assets/images/gambar-sound.jpg','assets/images/gambar-tenda.jpg','assets/images/gambar-undangan.jpg','assets/images/gambar-lainnya.jpg']
+            'gallery': ['assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg','assets/images/gambar-sound.jpg','assets/images/gambar-tenda.jpg','assets/images/gambar-undangan.jpg','assets/images/gambar-lainnya.jpg','assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg']
         },
         {
             'id': 'jasa-makeup',
@@ -107,7 +107,7 @@ const CONFIG = {
 
             'fitur': ['Diskon 5%', 'Makeup pria dan wanita', 'Bisa pilih nuansa tema', '3x ganti makeup', 'Post di IG'],
 
-            'gallery': ['assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg','assets/images/gambar-sound.jpg','assets/images/gambar-tenda.jpg','assets/images/gambar-undangan.jpg','assets/images/gambar-lainnya.jpg']
+            'gallery': ['assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg','assets/images/gambar-sound.jpg','assets/images/gambar-tenda.jpg','assets/images/gambar-undangan.jpg','assets/images/gambar-lainnya.jpg','assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg']
         },
     ],
 

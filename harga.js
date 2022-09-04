@@ -1,4 +1,4 @@
-let index = CONFIG.contacts.findIndex(item => item.title == "Whatsapp")+1
+let index = CONFIG.contacts.findIndex(item => item.judul == "Whatsapp")
 let whatsapp = CONFIG.contacts[index];
 
 let hargaContainer = document.getElementById('harga-container')
