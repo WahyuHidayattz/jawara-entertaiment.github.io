@@ -679,12 +679,12 @@ video {
   height: 3.5rem;
 }
 
-.max-h-\[400px\] {
-  max-height: 400px;
-}
-
 .max-h-\[350px\] {
   max-height: 350px;
+}
+
+.max-h-\[400px\] {
+  max-height: 400px;
 }
 
 .min-h-screen {
@@ -942,33 +942,9 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-violet-600\/60 {
-  --tw-gradient-from: rgb(124 58 237 / 0.6);
-  --tw-gradient-to: rgb(124 58 237 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .from-violet-600 {
   --tw-gradient-from: #7c3aed;
   --tw-gradient-to: rgb(124 58 237 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-violet-600\/70 {
-  --tw-gradient-from: rgb(124 58 237 / 0.7);
-  --tw-gradient-to: rgb(124 58 237 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-violet-600\/40 {
-  --tw-gradient-from: rgb(124 58 237 / 0.4);
-  --tw-gradient-to: rgb(124 58 237 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-violet-700\/40 {
-  --tw-gradient-from: rgb(109 40 217 / 0.4);
-  --tw-gradient-to: rgb(109 40 217 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
@@ -976,24 +952,8 @@ video {
   --tw-gradient-to: rgb(37 99 235 / 0.6);
 }
 
-.to-blue-500\/60 {
-  --tw-gradient-to: rgb(59 130 246 / 0.6);
-}
-
 .to-blue-500 {
   --tw-gradient-to: #3b82f6;
-}
-
-.to-blue-500\/70 {
-  --tw-gradient-to: rgb(59 130 246 / 0.7);
-}
-
-.to-blue-500\/40 {
-  --tw-gradient-to: rgb(59 130 246 / 0.4);
-}
-
-.to-blue-600\/40 {
-  --tw-gradient-to: rgb(37 99 235 / 0.4);
 }
 
 .bg-cover {
@@ -1039,6 +999,11 @@ video {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.\!py-4 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
 }
 
 .\!py-8 {
@@ -1094,16 +1059,6 @@ video {
 .\!py-16 {
   padding-top: 4rem !important;
   padding-bottom: 4rem !important;
-}
-
-.\!py-3 {
-  padding-top: 0.75rem !important;
-  padding-bottom: 0.75rem !important;
-}
-
-.\!py-4 {
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
 }
 
 .pb-4 {
