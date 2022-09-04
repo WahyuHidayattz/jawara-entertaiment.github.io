@@ -1,6 +1,9 @@
 let index = CONFIG.contacts.findIndex(item => item.judul == "Whatsapp")
 let whatsapp = CONFIG.contacts[index];
 
+let whatsappNumber = document.getElementById('whatsapp-number')
+whatsappNumber.textContent = "Whatsapp kami di : " + CONFIG.nomor_wa
+
 let linkWhatsapp = document.getElementById('link-whatsapp')
 linkWhatsapp.href = whatsapp.link
 
@@ -32,3 +35,4 @@ for(jasa of CONFIG.jasa){
 
     containerGallery.innerHTML += header + galleryItems + footer
 }
+
