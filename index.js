@@ -7,6 +7,8 @@ if(CONFIG.show_email == false){
     containerEmail.style.display = "none"
 }
 
+// update the images
+
 for (let jasa of CONFIG.jasa) {
     let items = 
     `<a href="harga.html" class="bg-[url('assets/images/${jasa.cover}')] product-card" style="background-image: url('assets/images/${jasa.cover}')">
