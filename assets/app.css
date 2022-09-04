@@ -957,6 +957,10 @@ video {
   background-image: url('images/${jasa.cover}');
 }
 
+.bg-\[url\(\'\/images\/\$\{jasa\.cover\}\'\)\] {
+  background-image: url('/images/${jasa.cover}');
+}
+
 .from-violet-700\/60 {
   --tw-gradient-from: rgb(109 40 217 / 0.6);
   --tw-gradient-to: rgb(109 40 217 / 0);

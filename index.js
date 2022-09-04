@@ -9,7 +9,7 @@ if(CONFIG.show_email == false){
 
 for (let jasa of CONFIG.jasa) {
     let items = 
-    `<a href="harga.html" class="bg-[url('../assets/images/${jasa.cover}')] product-card" style="background-image: url('../assets/images/${jasa.cover}')">
+    `<a href="harga.html" class="bg-[url('assets/images/${jasa.cover}')] product-card" style="background-image: url('assets/images/${jasa.cover}')">
         <div class="card">
             <span class="mb-2 text-xl font-semibold text-center">${jasa.judul}</span>
             <span class="text-sm text-center">${jasa.deskripsi}</span>
