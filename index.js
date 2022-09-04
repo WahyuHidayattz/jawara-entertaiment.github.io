@@ -22,7 +22,7 @@ for (let jasa of CONFIG.jasa) {
 
 for (let gallery of CONFIG.gallery_home){
     let items = 
-    `<button onclick="handleClick(this)" class="group">
+    `<button onclick="handleClick(this)" class="group hover:rotate-3 transition duration-200">
         <img src="assets/images/${gallery}" alt="" class="img-gallery">
     </button>`
     containerGallery.innerHTML += items
@@ -59,3 +59,7 @@ let instagram = contacts[contacts.map(i => i.judul).indexOf("Instagram")];
 document.getElementById('contact-whatsapp').href = whatsapp.link;
 document.getElementById('contact-telegram').href = telegram.link;
 document.getElementById('contact-instagram').href = instagram.link;
+
+let linkWhatsapp = document.getElementById('link-whatsapp')
+document.getElementById('whatsapp-text').textContent = "WA : " + CONFIG.nomor_wa
+linkWhatsapp.href = whatsapp.link

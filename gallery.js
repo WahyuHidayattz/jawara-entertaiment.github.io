@@ -29,7 +29,7 @@ for(jasa of CONFIG.jasa){
 
     let galleryItems = ``
     for(item of jasa.gallery){
-        galleryItems += `<button onclick="handleClick(this)" class="group hover:rotate-6 transition duration-300"><img src="${item}"
+        galleryItems += `<button onclick="handleClick(this)" class="group hover:rotate-3 transition duration-300"><img src="${item}"
         alt="" class="img-gallery"></button>`
     }
 
