@@ -7,17 +7,20 @@ for (let jasa of CONFIG.jasa){
     <div class="flex flex-row justify-between gap-4 pb-4 border-b border-b-gray-200">
         <span class="font-semibold flex-1">${jasa.judul}</span>
         <div class="flex flex-col items-end gap-1">
-            <span class="font-mono">${jasa.harga_diskon}</span>
-            <span class="font-mono text-sm line-through">${jasa.harga_asli}</span>
+            <span class="font-mono">Rp.${formatHarga(jasa.harga)}</span>
+            <span class="font-mono text-sm line-through">Rp.${formatHarga(jasa.harga + (jasa.harga * jasa.diskon_persen / 100))}</span>
         </div>
     </div>
-    <div class="flex flex-col flex-grow gap-2 py-6 font-mono text-base">`
+    <div class="flex flex-col flex-grow gap-2 py-6 font-mono text-sm md:text-base">`
 
     let itemFoot = `</div>
     <div class="flex flex-col gap-4 text-sm md:text-base">
-        <a href="gallery.html"
+        <a href="gallery.html#${jasa.id}"
             class="flex flex-row items-center justify-center gap-4 px-4 py-3 font-semibold text-white transition duration-200 bg-blue-500 rounded-lg hover:bg-blue-600">
-            Lihat Hasil Foto Kami
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+            </svg>
+            Lihat Hasil Foto
         </a>
         <a href="${whatsapp.link}" target="_blank"
             class="flex flex-row items-center justify-center gap-4 px-4 py-3 font-semibold text-white transition duration-200 bg-green-500 rounded-lg hover:bg-green-600 ">
@@ -46,7 +49,6 @@ for (let jasa of CONFIG.jasa){
 // validasi apakah link mempunyai id ?
 let url = window.location.href
 let urlId = url.substr(url.indexOf("#"))
-console.log(urlId);
 if(urlId.includes("#")){
     let component = document.querySelector(urlId)
     component.classList.add("border-4")
@@ -56,3 +58,6 @@ if(urlId.includes("#")){
     component.classList.add("ring-green-500/30")
 }
 
+function formatHarga(harga) {
+    return harga.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
+}

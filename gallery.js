@@ -19,7 +19,7 @@ for(jasa of CONFIG.jasa){
     let header = `<div id="${jasa.id}" class="flex flex-col gap-6 my-8">
     <div class="flex flex-row items-center justify-between gap-4">
         <span class="flex-1 text-lg font-semibold text-white md:text-2xl">${jasa.judul}</span>
-        <a href="harga.html"
+        <a href="harga.html#${jasa.id}"
             class="px-4 py-2 text-sm text-white bg-blue-500 rounded-full shadow-lg md:px-6 lg:px-10 md:text-base hover:bg-blue-400">Lihat
             Harga</a>
     </div>

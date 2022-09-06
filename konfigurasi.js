@@ -36,11 +36,10 @@ const CONFIG = {
             'judul': 'Foto Pengantin',
             'deskripsi': 'Menjadi fotographer pengantin yang sedang menikah',
             'cover': 'gambar-foto.jpg',
-            'harga_asli': 'Rp.1.850.000',
-            'harga_diskon': 'Rp.950,000',
-            'harga_diskon_persen': '18%',
+            'harga': 1850000,
+            'diskon_persen': 15,
 
-            'fitur': ['Diskon 18%', '6 Jam standby', '50+ Jepretan Foto','Edit Foto', 'Post di IG'],
+            'fitur': ['Diskon 15%', '6 Jam standby', '50+ Jepretan Foto','Edit Foto', 'Post di IG'],
 
             'gallery': ['assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg','assets/images/gambar-sound.jpg','assets/images/gambar-tenda.jpg','assets/images/gambar-undangan.jpg','assets/images/gambar-lainnya.jpg','assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg']
         },
@@ -49,11 +48,10 @@ const CONFIG = {
             'judul': 'Sewa Sound',
             'deskripsi': 'Menyewakan sound system untuk kebutuhan pernikahan, acara gathering, event dll',
             'cover': 'gambar-sound.jpg',
-            'harga_asli': 'Rp.750,000',
-            'harga_diskon': 'Rp.550,000',
-            'harga_diskon_persen': '10%',
+            'harga': 750000,
+            'diskon_persen': 8,
 
-            'fitur': ['Diskon 10%', 'Operator disediakan', '4 Sound besar', 'Bisa req lagu','Karouke'],
+            'fitur': ['Diskon 8%', 'Operator disediakan', '4 Sound besar', 'Bisa req lagu','Karouke'],
 
             'gallery': ['assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg','assets/images/gambar-sound.jpg','assets/images/gambar-tenda.jpg','assets/images/gambar-undangan.jpg','assets/images/gambar-lainnya.jpg','assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg']
         },
@@ -62,11 +60,10 @@ const CONFIG = {
             'judul': 'Cetak Undangan',
             'deskripsi': 'Membuat dan mencetak surat undangan pernikahan',
             'cover': 'gambar-undangan.jpg',
-            'harga_asli': 'Rp.280,000',
-            'harga_diskon': 'Rp.150,000',
-            'harga_diskon_persen': '15%',
+            'harga': 550000,
+            'diskon_persen': 10,
 
-            'fitur': ['Diskon 15%', 'Design moderen', 'Kualitas Kertas No.1', 'Peta / Alamat Pernikahan', 'Free ongkir'],
+            'fitur': ['Diskon 10%', 'Design moderen', 'Kualitas Kertas No.1', 'Peta / Alamat Pernikahan', 'Free ongkir'],
 
             'gallery': ['assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg','assets/images/gambar-sound.jpg','assets/images/gambar-tenda.jpg','assets/images/gambar-undangan.jpg','assets/images/gambar-lainnya.jpg','assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg']
         },
@@ -75,11 +72,10 @@ const CONFIG = {
             'judul': 'Jadi MC',
             'deskripsi': 'Menjadi MC di acara formal atau non formal',
             'cover': 'gambar-mc.jpg',
-            'harga_asli': 'Rp.2,500,000',
-            'harga_diskon': 'Rp.2,200,000',
-            'harga_diskon_persen': '25%',
+            'harga': 2500000,
+            'diskon_persen': 15,
 
-            'fitur': ['Diskon 25%', 'Tema bebas', 'Speaker Profesional', 'Bisa duet dan nyanyi'],
+            'fitur': ['Diskon 15%', 'Tema bebas', 'Speaker Profesional', 'Bisa duet dan nyanyi'],
 
             'gallery': ['assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg','assets/images/gambar-sound.jpg','assets/images/gambar-tenda.jpg','assets/images/gambar-undangan.jpg','assets/images/gambar-lainnya.jpg','assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg']
         },
@@ -88,11 +84,10 @@ const CONFIG = {
             'judul': 'Pasang Tenda',
             'deskripsi': 'Jasa pasang tenda pernikahan',
             'cover': 'gambar-tenda.jpg',
-            'harga_asli': 'Rp.1,800,000',
-            'harga_diskon': 'Rp.1,500,000',
-            'harga_diskon_persen': '8%',
+            'harga': 1650000,
+            'diskon_persen': 20,
 
-            'fitur': ['DIskon 8%', 'Tenda kokoh', 'Desian minimalist', 'Free bangku', 'Free meja'],
+            'fitur': ['DIskon 20%', 'Tenda kokoh', 'Desian minimalist', 'Free bangku', 'Free meja'],
 
             'gallery': ['assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg','assets/images/gambar-sound.jpg','assets/images/gambar-tenda.jpg','assets/images/gambar-undangan.jpg','assets/images/gambar-lainnya.jpg','assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg']
         },
@@ -101,11 +96,10 @@ const CONFIG = {
             'judul': 'Makeup Pengantin',
             'deskripsi': 'Jasa makeup pengantin',
             'cover': 'gambar-lainnya.jpg',
-            'harga_asli': 'Rp.550,000',
-            'harga_diskon': 'Rp.450,000',
-            'harga_diskon_persen': '5%',
+            'harga': 850000,
+            'diskon_persen': 12,
 
-            'fitur': ['Diskon 5%', 'Makeup pria dan wanita', 'Bisa pilih nuansa tema', '3x ganti makeup', 'Post di IG'],
+            'fitur': ['Diskon 12%', 'Makeup pria dan wanita', 'Bisa pilih nuansa tema', '3x ganti makeup', 'Post di IG'],
 
             'gallery': ['assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg','assets/images/gambar-sound.jpg','assets/images/gambar-tenda.jpg','assets/images/gambar-undangan.jpg','assets/images/gambar-lainnya.jpg','assets/images/gambar-foto.jpg','assets/images/gambar-mc.jpg']
         },
