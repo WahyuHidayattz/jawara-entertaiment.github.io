@@ -1,3 +1,6 @@
+let id = CONFIG.contacts.findIndex(item => item.judul == "Whatsapp")
+let whatsapp = CONFIG.contacts[id];
+
 let layanan = CONFIG.layanan
 let layananContainer = document.getElementById('layanan-container')
 for (const item of layanan) {
@@ -25,7 +28,7 @@ for (const item of layanan) {
                     <div class="flex flex-col flex-grow gap-3 p-6 text-sm">`
         let subFooter = `</div>
                     <div class="px-6 py-4 border-t border-t-gray-200">
-                        <a href=""
+                        <a href="${whatsapp.link + " : " + lay.judul}" target="_blank"
                             class="flex flex-row items-center justify-center gap-4 px-6 py-3 text-white bg-blue-500 rounded-full hover:bg-blue-600">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp"
                                 width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"

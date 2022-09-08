@@ -36,7 +36,7 @@ for (const item of sublayanan) {
                     <div class="flex flex-col gap-3 p-6 flex-grow text-sm">`
     let footer = `</div>
                     <div class="px-6 py-4 border-t border-t-gray-200">
-                        <a href="${whatsapp.link + " : " + item.judul}"
+                        <a target="_blank" href="${whatsapp.link + " : " + item.judul}"
                             class="flex flex-row items-center justify-center gap-4 px-6 py-3 text-white bg-blue-500 rounded-full hover:bg-blue-600">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp"
                                 width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
