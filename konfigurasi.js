@@ -27,7 +27,7 @@ const CONFIG = {
     ],
 
     'gallery_home': [
-        'gambar-foto.jpg','gambar-lainnya.jpg','gambar-mc.jpg','gambar-sound.jpg','gambar-tenda.jpg','gambar-undangan.jpg','gambar-foto.jpg','gambar-lainnya.jpg',
+        'pernikahan-1.jpeg','pernikahan-2.jpeg','pernikahan-3.jpeg','pernikahan-4.jpeg','pernikahan-5.jpeg','pernikahan-6.jpeg','pernikahan-7.jpeg','pernikahan-8.jpeg',
     ],
 
     'layanan': [

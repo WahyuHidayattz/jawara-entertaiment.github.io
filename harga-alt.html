@@ -140,10 +140,10 @@
 		let modalImage = document.getElementById('modal-image')
 		let modalLink = document.getElementById('modal-link')
 		let handleClick = (event) => {
-			modal.classList.remove('hidden')
+            modal.classList.remove('hidden')
 			modalImage.src = event.children[0].src
-            let imagePath = "assets/images/hd/"  + event.children[0].src.split('/').pop()
-			modalLink.href = imagePath
+			modalLink.href = event.children[0].src
+            // let imagePath = "assets/images/hd/"  + event.children[0].src.split('/').pop()
 		}
 		modalClose.addEventListener('click', () => {
 			modal.classList.add('hidden')
