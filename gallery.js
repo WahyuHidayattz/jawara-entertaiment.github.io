@@ -10,16 +10,16 @@ linkWhatsapp.href = whatsapp.link
 let containerGallery = document.getElementById('container-gallery')
 let containerMenu = document.getElementById('container-menu')
 
-for(jasa of CONFIG.jasa){
+for(jasa of CONFIG.layanan){
     let item = `<a href="#${jasa.id}" class="gallery-button">${jasa.judul}</a>`
     containerMenu.innerHTML += item
 }
 
-for(jasa of CONFIG.jasa){
+for(jasa of CONFIG.layanan){
     let header = `<div id="${jasa.id}" class="flex flex-col gap-6 my-8">
     <div class="flex flex-row items-center justify-between gap-4">
         <span class="flex-1 text-lg font-semibold text-white md:text-2xl">${jasa.judul}</span>
-        <a href="harga.html#${jasa.id}"
+        <a href="harga-alt.html#${jasa.id}"
             class="px-4 py-2 text-sm text-white bg-blue-500 rounded-full shadow-lg md:px-6 lg:px-10 md:text-base hover:bg-blue-400">Lihat
             Harga</a>
     </div>

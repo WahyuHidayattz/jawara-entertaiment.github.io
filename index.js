@@ -9,9 +9,9 @@ if(CONFIG.show_email == false){
 
 // update the images
 
-for (let jasa of CONFIG.jasa) {
+for (let jasa of CONFIG.layanan) {
     let items = 
-    `<a href="harga.html#${jasa.id}" class="bg-[url('assets/images/${jasa.cover}')] product-card" style="background-image: url('assets/images/${jasa.cover}')">
+    `<a href="harga-alt.html#${jasa.id}" class="bg-[url('assets/images/${jasa.cover}')] product-card" style="background-image: url('assets/images/${jasa.cover}')">
         <div class="card">
             <span class="mb-2 text-xl font-semibold text-center">${jasa.judul}</span>
             <span class="text-sm text-center">${jasa.deskripsi}</span>

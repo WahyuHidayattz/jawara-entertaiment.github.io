@@ -27,7 +27,7 @@ html {
 }
 
 .img-gallery {
-    @apply w-full aspect-video shadow-lg border-4 md:border-[6px] border-white object-cover object-center group-hover:border-blue-500 transition duration-200
+    @apply w-full aspect-video shadow-lg border-4 md:border-[6px] border-white object-cover object-center group-hover:border-blue-500 transition duration-200 group-hover:rotate-3
 }
 
 .input {
