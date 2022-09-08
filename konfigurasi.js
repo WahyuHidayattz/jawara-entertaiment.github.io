@@ -16,13 +16,13 @@ const CONFIG = {
             'judul': 'Telegram',
             'deskripsi': 'Kirim pertanyaan atau pesan langsung jasa kami via Telegram.',
             'icon': 'telegram.svg',
-            'link': 'https://t.me/wahyu135'
+            'link': 'https://t.me/jawaraentertaiment'
         },
         {
             'judul': 'Instagram',
             'deskripsi': 'Lihat hasil pekerjaan kami di Instagram atau DM langsung.',
             'icon': 'instagram.svg',
-            'link': 'https://instagram.com/wagyu135'
+            'link': 'https://instagram.com/studioaf_Official'
         }
     ],
 

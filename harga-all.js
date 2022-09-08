@@ -4,7 +4,8 @@ let whatsapp = CONFIG.contacts[id];
 let layanan = CONFIG.layanan
 let layananContainer = document.getElementById('layanan-container')
 for (const item of layanan) {
-    let layananHeader = `<div id="#${item.id}" class="flex flex-col gap-6"><div class="flex flex-row items-center justify-between gap-4">
+    let layananHeader = `<div id="#${item.id}" class="flex flex-col gap-3">
+    <div class="flex flex-row items-center justify-between gap-4 py-3">
                             <span class="text-lg lg:text-3xl font-semibold text-gray-700 flex-1">${item.judul}</span>
                             <a href="harga-alt.html#${item.id}" class="px-6 py-2 text-white bg-blue-500 rounded-full shadow-lg hover:bg-blue-600">Lebih
                             Lanjut</a>

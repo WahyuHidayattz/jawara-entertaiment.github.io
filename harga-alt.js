@@ -4,6 +4,7 @@ let urlId = url.substr(url.indexOf("#") + 1)
 let id = CONFIG.contacts.findIndex(item => item.judul == "Whatsapp")
 let whatsapp = CONFIG.contacts[id];
 
+
 let hargaContainer = document.getElementById('harga-container')
 let galleryContainer = document.getElementById('gallery-container')
 let judul = document.getElementById('text-judul')
@@ -18,6 +19,9 @@ let gallery = layanan.gallery
 judul.textContent = layanan.judul
 deskripsi.textContent = layanan.deskripsi
 linkGallery.href = "gallery.html#" + layanan.id
+
+let header = document.getElementById('header')
+header.style.backgroundImage = `url('assets/images/${layanan.cover}')`
 
 for (const item of sublayanan) {
     let highlight = item.highlight ? `md:scale-105 border-4 border-blue-500` : ``
