@@ -229,8 +229,8 @@ const CONFIG = {
 
     'review': [
         {
-            'nama': 'Ayuni Syara',
-            'pesan': 'Saya sangan puas dengan layanan yang diberikan oleh Jawara Entertaiment'
+            'nama': 'Kang Ujang',
+            'pesan': 'Alhamdulillah dokumentasi khitanan anak saya bisa di abadikan, muali dari pemotongan sampai penyarungannya.'
         },
         {
             'nama': 'Wahyu Hidayat',
@@ -241,16 +241,16 @@ const CONFIG = {
             'pesan': 'Mantap sekali, saya sewa sound beserta tukang soundnya dan acaranya berjalan sesuai harapan saya'
         },
         {
-            'nama': 'Reni Yuliawati',
-            'pesan': 'Kualitas hasil percetakan undangan pernikahannya sangat memuaskan, desain keren dan ada peta-nya'
+            'nama': 'Ronaldo',
+            'pesan': 'Mantap sekali MC di acara pertandingan bolanya, sangat berkualitas dan mengerti bola.'
         },
         {
             'nama': 'Syahrul Gunawan',
             'pesan': 'Acara khitanan saya berjalan dengan meriah berkat MC mas Ucup kemarin.. Terimakasih.'
         },
         {
-            'nama': 'Pemuda Pancasil',
-            'pesan': 'Pertandingan meriah sekali gara gara MC nya mas Ucup. saya sampai-sampai jadi juaranya :D'
+            'nama': 'Pemuda Pancasila',
+            'pesan': 'Kemarin saya lihat fotographernya bagus sekali di acara pernikahan orang. Sangat profesional'
         }
     ]
 
