@@ -230,7 +230,7 @@ const CONFIG = {
     'review': [
         {
             'nama': 'Kang Ujang',
-            'pesan': 'Alhamdulillah dokumentasi khitanan anak saya bisa di abadikan, muali dari pemotongan sampai penyarungannya.'
+            'pesan': 'Alhamdulillah dokumentasi khitanan anak saya bisa di abadikan, muali dari pemotongan sampai penyarungannya. Terimakasih Jawara Entertaiment.'
         },
         {
             'nama': 'Wahyu Hidayat',
